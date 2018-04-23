@@ -2,8 +2,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .container {
-    width: 900px;
-    margin: 10px auto;
+    width: 950px;
+    margin: 0 auto;
 }
 
 /** Header */
@@ -98,23 +98,37 @@ h2 {
 }
 
 
-
-
 /** Small icons */
 .small-icons {
     display: flex;
     flex-direction: row;
-    width: 100%;
     align-items: center;
     background-color: #c6c700;
 }
 
 .small-icons div {
     width: 25%;
+    text-align: center;
+    margin: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 /** Footer */
 footer {
     text-align: center;
     background-color: #db005c;
+    padding: 55px;
+    color: white;
+    font-size: 12px;
+}
+
+footer img {
+    margin: 10px;
+}
+
+.fa-map-marker {
+    color: white;
+    font-size: 42px !important;
 }
