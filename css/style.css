@@ -8,3 +8,16 @@
     text-transform: uppercase;
 }
 
+/** Small icons */
+.small-icons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    align-items: center;
+    background-color: #c6c700;
+}
+
+.small-icons div {
+    width: 25%;
+}
