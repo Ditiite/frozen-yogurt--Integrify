@@ -1,0 +1,10 @@
+.container {
+    width: 900px;
+    margin: 10px auto;
+}
+
+.nav-btn li {
+    display: inline-flex;
+    text-transform: uppercase;
+}
+
