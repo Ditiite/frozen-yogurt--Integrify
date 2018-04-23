@@ -31,10 +31,14 @@ header{
     display: inline-flex;
     text-transform: uppercase;
     width: 24%;
+}
+
+.nav-btn a {
+    text-decoration: none;
     color: rgb(140, 139, 139);
 }
 
-.nav-btn li:hover {
+.nav-btn a:hover {
     color: #bf024b;
 }
 /** Big image */
