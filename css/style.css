@@ -109,6 +109,7 @@ h2 {
 /** Small icons */
 .small-icons {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     background-color: #c6c700;
